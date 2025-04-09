@@ -33,13 +33,22 @@
 
         private void editNoteButton_Click(object sender, EventArgs e)
         {
-            if (notesList.SelectedItem is not Item item) return;
+            if (notesList.SelectedItem is not Item item)
+            {
+                MessageBox.Show("Please select a note first.");
+                return;
+            }
+            ;
 
             DataService ds = DataService.Instance;
 
             Note? note = ds.getById(item.Id);
 
-            if (note is null) return;
+            if (note is null)
+            {
+                MessageBox.Show("Failed to edit note, please restart app.");
+                return;
+            }
 
             AddForm addForm = new(note);
             addForm.FormClosed += AddForm_FormClosed;
@@ -48,13 +57,22 @@
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            if (notesList.SelectedItem is not Item item) return;
+            if (notesList.SelectedItem is not Item item)
+            {
+                MessageBox.Show("Please select a note to delete.");
+                return;
+            }
+            ;
 
             DataService ds = DataService.Instance;
 
             Note? note = ds.getById(item.Id);
 
-            if (note is null) return;
+            if (note is null)
+            {
+                MessageBox.Show("Failed to delete note, please restart app.");
+                return;
+            }
 
             ds.deleteNote(note);
 
