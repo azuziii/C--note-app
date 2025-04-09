@@ -14,11 +14,7 @@ namespace NoteApp
 
         private void display(Note? note)
         {
-            if (note is null)
-            {
-                MessageBox.Show("Failed to load note, please restart app.");
-                return;
-            }
+            if (note is null) return;
 
                 titleText.Text = note.Title;
                 contentText.Text = note.Content;
