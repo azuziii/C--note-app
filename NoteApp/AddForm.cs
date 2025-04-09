@@ -27,7 +27,6 @@ namespace NoteApp
 
             DataService ds = DataService.Instance;
 
-                label1.Text = id.ToString();
             if (id is null)
             {
                 Note newNote = new(title, content);

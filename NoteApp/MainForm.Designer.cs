@@ -32,7 +32,6 @@
             notesList = new ListBox();
             newNoteButton = new Button();
             editNoteButton = new Button();
-            label1 = new Label();
             deleteButton = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -76,15 +75,6 @@
             editNoteButton.UseVisualStyleBackColor = true;
             editNoteButton.Click += editNoteButton_Click;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(360, 286);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 3;
-            label1.Text = "label1";
-            // 
             // deleteButton
             // 
             deleteButton.Location = new Point(343, 92);
@@ -101,7 +91,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(425, 450);
             Controls.Add(deleteButton);
-            Controls.Add(label1);
             Controls.Add(editNoteButton);
             Controls.Add(newNoteButton);
             Controls.Add(groupBox1);
@@ -109,7 +98,6 @@
             Text = "Form2";
             groupBox1.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -118,7 +106,6 @@
         private ListBox notesList;
         private Button newNoteButton;
         private Button editNoteButton;
-        private Label label1;
         private Button deleteButton;
     }
 }

@@ -34,7 +34,6 @@
             contentText = new RichTextBox();
             saveButton = new Button();
             cancelButton = new Button();
-            label1 = new Label();
             SuspendLayout();
             // 
             // titleLabel
@@ -90,21 +89,11 @@
             cancelButton.UseVisualStyleBackColor = true;
             cancelButton.Click += cancelButton_Click;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(130, 91);
-            label1.Name = "label1";
-            label1.Size = new Size(78, 32);
-            label1.TabIndex = 6;
-            label1.Text = "label1";
-            // 
             // AddForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(384, 461);
-            Controls.Add(label1);
             Controls.Add(cancelButton);
             Controls.Add(saveButton);
             Controls.Add(contentText);
@@ -127,6 +116,5 @@
         private RichTextBox contentText;
         private Button saveButton;
         private Button cancelButton;
-        private Label label1;
     }
 }
