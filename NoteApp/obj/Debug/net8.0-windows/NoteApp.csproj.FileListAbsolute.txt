@@ -1,0 +1,17 @@
+C:\Users\Dell\source\repos\NoteApp\NoteApp\bin\Debug\net8.0-windows\NoteApp.exe
+C:\Users\Dell\source\repos\NoteApp\NoteApp\bin\Debug\net8.0-windows\NoteApp.deps.json
+C:\Users\Dell\source\repos\NoteApp\NoteApp\bin\Debug\net8.0-windows\NoteApp.runtimeconfig.json
+C:\Users\Dell\source\repos\NoteApp\NoteApp\bin\Debug\net8.0-windows\NoteApp.dll
+C:\Users\Dell\source\repos\NoteApp\NoteApp\bin\Debug\net8.0-windows\NoteApp.pdb
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.AssemblyInfo.cs
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.dll
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\refint\NoteApp.dll
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.pdb
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.genruntimeconfig.cache
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\ref\NoteApp.dll
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.AddForm.resources
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.MainForm.resources
+C:\Users\Dell\source\repos\NoteApp\NoteApp\obj\Debug\net8.0-windows\NoteApp.csproj.GenerateResource.cache
